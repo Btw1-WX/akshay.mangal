@@ -77,11 +77,9 @@ body {
   }
   
   .main-heading {
-    width: 306px;
     font-family: "Source Sans Pro";
     font-size: 48px;
     font-weight: 600;
-    line-height: normal;
     color: rgba(37, 37, 37, 1);
     text-align: center;
   }
@@ -124,14 +122,11 @@ body {
   }
   
   .sub-heading {
-    width: 219px;
   margin-bottom: 20px;
     font-family: "Source Sans Pro";
     font-size: 40px;
     font-weight: 400;
-    line-height: normal;
     color: rgb(28 27 27 / 58%);
-    text-align: center;
     
   }
   
@@ -227,7 +222,6 @@ body {
     align-items: flex-start;
   }
   .sub-heading-three {
-    width: 219px;
     font-family: "Source Sans Pro";
     font-size: 40px;
     font-weight: 400;
@@ -253,7 +247,6 @@ body {
 
   .contact6-home {
     width: 100%;
-    margin-left: 42px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -286,7 +279,6 @@ body {
   .year{
     display: flex;
     flex-direction: row;
-    /* width: 90%; */
     justify-content: flex-end;
   }
 .upper-part{
@@ -343,13 +335,13 @@ body {
   }
 
   .group-40 {
-      margin-right: 48px;
+      margin-right: 20px;
   }
 }
 
 @media(max-width:576px) {
   .flex-wrapper-one {
-      padding-left: 40px;
+      padding-left: 20px;
   }
 
   .head {
@@ -368,7 +360,6 @@ body {
       font-size: 30px;
   }
   .sub-heading{
-      width: 200px;
       font-size:30px;
   }
 
