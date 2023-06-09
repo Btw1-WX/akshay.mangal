@@ -792,7 +792,7 @@ form h2 {
 @media (max-width: 576px) {
     .text-40 {
         padding: 0 2rem;
-        font-size: 25px;
+        font-size: 22px;
     }
 }
 
@@ -1005,6 +1005,11 @@ form h2 {
 @media(max-width:576px) {
     .text-43 {
         width: auto;
+        font-size: 2rem;
+    }
+    .hello-im-akshay-mangal{
+        font-size: 3rem;
+        line-height: 65px;
     }
 
     .button-1,
@@ -1016,7 +1021,29 @@ form h2 {
         width: 12rem;
         height: 4rem;
     }
-
+    .text-39,
+    .text-8,
+    .text-9{
+        font-size: 3rem;
+    }
+    .theme .title{
+        font-size: 1.5rem;
+    }
+    .service p {
+        font-size: 1.2rem;
+    }
+    .the-why-factor,
+    .the-why-factor-emphasis-1 {
+        font-size: 3rem;
+    }
+    .v-18,
+    .text-26{
+        font-size: 2.5rem;
+    }
+    .text-17{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media(max-width:450px) {
