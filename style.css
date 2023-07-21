@@ -22,7 +22,6 @@ a {
 
 .why-factor-two {
     width: 100%;
-    margin: 5rem 0;
 }
 
 .why-factor {
@@ -153,7 +152,6 @@ a {
 .clients {
     width: 100%;
     padding-top: 3rem;
-    background: #012234;
 }
 
 .text-8 {
@@ -161,7 +159,8 @@ a {
     font-size: 70px;
     font-weight: 700;
     line-height: normal;
-    color: rgba(0, 162, 237, 1);
+    /* color: rgba(0, 162, 237, 1); */
+    color: rgb(31 34 35);
 }
 
 .flex-wrapper-thirteen {
@@ -175,8 +174,10 @@ a {
     align-items: center;
 }
 .extra img {
-    height: 14rem;
-    width: 20rem;
+    /* height: 14rem;
+    width: 20rem; */
+    width: 70%;
+    max-width: 100%;
 }
 
 .bar-2 {
@@ -187,6 +188,7 @@ a {
 .testimonials {
     margin: 5rem 0;
     width: 100%;
+    background: #012234;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -196,6 +198,7 @@ a {
     font-family: "DM Sans";
     font-size: 50px;
     font-weight: 700;
+    color: #fff;
     line-height: normal;
     text-align: center;
 }
