@@ -236,6 +236,7 @@ body {
     font-family: "Source Sans Pro";
     font-size: 24px;
     font-weight: 400;
+    margin-bottom: 3rem;
     line-height: 38px;
     color: rgba(112, 110, 110, 1);
     display: flex;
