@@ -462,7 +462,7 @@ a {
 }
 
 .flex-wrapper-journey {
-    padding: 25px 15px;
+    padding: 15px;
     border-radius: 70px;
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(93px);
@@ -892,7 +892,7 @@ form h2 {
 .text-43 {
     /* width: 30rem; */
     font-family: "Roboto Serif";
-    font-size: 40px;
+    font-size: 2rem;
     margin: 1rem 0 2rem 0;
 }
 
@@ -972,10 +972,9 @@ form h2 {
 
 .wictronix img {
     background: white;
-    border-radius: 2rem;
-    padding: 1rem;
-    height: 4rem;
-    width: 12rem;
+    border-radius: 1.2rem;
+    padding: 0.5rem;
+    width: 10rem;
     margin-left: 1rem;
 }
 
@@ -1013,7 +1012,7 @@ form h2 {
 @media(max-width:576px) {
     .text-43 {
         width: auto;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .hello-im-akshay-mangal{
         font-size: 3rem;
