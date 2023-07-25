@@ -1077,3 +1077,9 @@ form h2 {
     }
 
 }
+
+.twitter-timeline {
+    margin: 0rem auto;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
