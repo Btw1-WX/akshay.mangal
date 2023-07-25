@@ -83,22 +83,6 @@ body {
     color: rgba(37, 37, 37, 1);
     text-align: center;
   }
-  .options select{
-    height: 49px;
-    width: 115px;
-    font-size: 22px;
-    font-weight: 700;
-    padding: 10px 16px;
-    border-radius: 15px;
-    margin: 2.9px 45px;
-    
-    color: red;
-    border: 0.1px solid #d4d4d4;
-    cursor: pointer;
-  }
-  .options select:hover{
-    box-shadow: 0 0 40px 1px rgba(0, 0, 0, 0.1);
-  }
   
   .cancel {
     background-color: var(--white);
@@ -319,9 +303,6 @@ body {
   .flex-wrapper-one {
       padding-left: 50px;
       padding: 69px 60px 84px 72px;
-  }
-  .options select {
-    margin: 2.9px 30px;
   }
   .img {
       width: 100%;

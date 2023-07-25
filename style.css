@@ -175,7 +175,6 @@ a {
     justify-items: center;
     padding: 3rem 0;
     justify-content: center;
-    align-items: center;
 }
 .extra img {
     /* height: 14rem;
@@ -209,7 +208,6 @@ a {
 }
 
 .box-2 {
-    margin-top: 34px;
     border-radius: 24px;
     box-shadow: 0 0 20px 1px rgba(0, 162, 237, 0.1);
     position: relative;
@@ -238,7 +236,7 @@ a {
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 30px;
     margin-top: 1rem;
     color: rgba(38, 38, 38, 1);
 }
@@ -260,7 +258,7 @@ a {
 
 .text-13 {
     font-family: "Roboto";
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     line-height: normal;
     color: rgba(0, 162, 237, 1);
@@ -268,7 +266,7 @@ a {
 
 .text-14 {
     font-family: "DM Sans";
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     line-height: normal;
     color: rgba(100, 99, 99, 1);
@@ -276,9 +274,9 @@ a {
 
 .text-15 {
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 30px;
     margin-top: 1rem;
     color: rgba(38, 38, 38, 1);
 }
@@ -288,7 +286,7 @@ a {
     font-size: 18px;
     font-weight: 400;
     margin-top: 1rem;
-    line-height: 25px;
+    line-height: 30px;
     color: rgba(38, 38, 38, 1);
     display: flex;
 }
@@ -551,7 +549,8 @@ a {
 @media(max-width:768px) {
     .text-30 {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
+        padding: .5rem 1rem;
     }
 
     .text-28 {
