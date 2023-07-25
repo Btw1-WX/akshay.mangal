@@ -318,7 +318,6 @@ a {
 }
 
 .flex-wrapper-ten {
-    margin-bottom: 38px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1078,8 +1077,11 @@ form h2 {
 
 }
 
+.twitter {
+    background: #012234;
+    margin-bottom: 3rem;
+}
 .twitter-timeline {
     margin: 0rem auto;
-    padding-top: 6rem;
-    padding-bottom: 3rem;
+    padding: 4rem 0;
 }
