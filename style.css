@@ -1096,22 +1096,6 @@ form h2 {
     text-align: center;
     font-size: 3rem;
 }
-
-.blog-bar {
-    margin: 3rem 0;
-    display: flex !important;
-    justify-content: space-evenly;
-}
-.blog-bar span {
-    font-size: 2rem;
-    cursor: pointer;
-    padding: 1rem 3rem;
-}
-.blog-bar span.active {
-    background: radial-gradient(circle, rgba(38,50,183,1) 50%, rgba(0,94,145,1) 100%);
-    border-radius: 2rem;
-    color: white;
-}
 #twitter-blogs {
     gap: 3rem;
     padding: 2rem;
@@ -1142,11 +1126,6 @@ form h2 {
 }
 
 @media (max-width: 630px) {
-    .blog-bar {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
     .blogimg img {
         width: 100%;
     }
