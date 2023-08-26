@@ -56,6 +56,7 @@ a {
     border: 1px solid rgba(214, 212, 212, 1);
 }
 
+
 .text-1 {
     font-family: "Open Sans";
     font-size: 40px;
@@ -67,6 +68,7 @@ a {
 
 .text-2 {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 28px;
     font-weight: 500;
     color: rgba(83, 83, 83, 1);
@@ -93,6 +95,7 @@ a {
 
 .text-6 {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 28px;
     font-weight: 500;
     color: rgba(83, 83, 83, 1);
@@ -120,6 +123,7 @@ a {
 
 .sessions-delivered {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 28px;
     font-weight: 500;
     color: rgba(83, 83, 83, 1);
@@ -142,6 +146,7 @@ a {
 
 .the-why-factor-emphasis-1 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 70px;
     font-weight: 700;
     line-height: normal;
@@ -198,6 +203,7 @@ a {
 
 .text-9 {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 50px;
     font-weight: 700;
     color: #fff;
@@ -217,6 +223,8 @@ a {
 
 .text-10 {
     font-family: "Roboto";
+text-align: justify;
+    text-align: justify;
     font-size: 22px;
     font-weight: 700;
     line-height: normal;
@@ -225,6 +233,7 @@ a {
 
 .text-11 {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 15px;
     font-weight: 500;
     line-height: normal;
@@ -233,6 +242,7 @@ a {
 
 .text-12 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -257,6 +267,7 @@ a {
 
 .text-13 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 22px;
     font-weight: 700;
     line-height: normal;
@@ -265,6 +276,7 @@ a {
 
 .text-14 {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 15px;
     font-weight: 500;
     line-height: normal;
@@ -273,6 +285,7 @@ a {
 
 .text-15 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -282,6 +295,7 @@ a {
 
 .text-16 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 18px;
     font-weight: 400;
     margin-top: 1rem;
@@ -308,6 +322,7 @@ a {
 
 .text-17 {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 60px;
     font-weight: 700;
     line-height: normal;
@@ -324,7 +339,7 @@ a {
 
 .flex-wrapper-ten img {
     width: 12rem;
-    margin: 2rem;
+    margin: 2rem 4rem;
 }
 
 .topics-talked-about {
@@ -338,6 +353,7 @@ a {
 
 .v-18 {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 50px;
     font-weight: 700;
     line-height: normal;
@@ -382,6 +398,7 @@ a {
 
 .text-19 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 20px;
     font-weight: 400;
     line-height: 29px;
@@ -390,6 +407,7 @@ a {
 
 .text-21 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 20px;
     font-weight: 400;
     line-height: 29px;
@@ -398,9 +416,10 @@ a {
 
 .text-22 {
     font-family: "Roboto";
-    font-size: 20px;
+    text-align: justify;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 18px;
     color: var(--black);
 }
 
@@ -444,10 +463,11 @@ a {
 
 .text-22-two {
     font-family: "DM Sans";
-    font-size: 50px;
+text-align: justify;
+    font-size: 40px;
     font-weight: 500;
     margin: 1rem;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
 }
 
 .flex-wrapper-three {
@@ -462,16 +482,14 @@ a {
 }
 
 .flex-wrapper-journey {
-    padding: 15px;
+    padding: 12px;
     border-radius: 70px;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(93px);
-    font-family: "DM Sans";
-    background: linear-gradient(200deg, rgba(78,89,213,1) 0%, rgba(56,141,255,1) 50%, rgba(78,89,213,1) 100%);
-    color: white;
-    font-size: 30px;
+    text-align: justify;
+    background: rgb(61, 188, 238);
+    color: black;
+    font-size: 25px;
     font-weight: 500;
-    border: 2px solid rgba(0, 162, 237);
 }
 
 .ams-3-1 {
@@ -504,6 +522,7 @@ a {
 
 .text-26 {
     font-family: "DM Sans";
+text-align: justify;
     font-size: 60px;
     font-weight: 700;
     line-height: normal;
@@ -561,6 +580,7 @@ a {
 
 .text-28 {
     font-family: "DM Sans";
+text-align: justify;
     display: flex;
     align-items: center;
     font-size: 20px;
@@ -586,6 +606,7 @@ a {
 
 .contact {
     font-family: "DM Sans";
+text-align: justify;
     padding-top: 6rem;
 }
 .contact-center {
@@ -782,6 +803,7 @@ form h2 {
 
 .text-39 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 70px;
     font-weight: 600;
     color: rgba(0, 162, 237, 1);
@@ -790,6 +812,7 @@ form h2 {
 
 .text-40 {
     font-family: "Roboto";
+text-align: justify;
     font-size: 1.6rem;
     font-weight: 400;
     padding: 0 6rem;
@@ -858,6 +881,7 @@ form h2 {
     height: 23px;
     width: 178px;
     font-family: "Roboto";
+text-align: justify;
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
@@ -884,6 +908,7 @@ form h2 {
     height: 23px;
     width: 123px;
     font-family: "Roboto";
+text-align: justify;
     font-size: 24px;
     font-weight: 600;
     line-height: normal;
@@ -973,7 +998,8 @@ form h2 {
 .menu li {
     list-style: none;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Open Sans";
 }
 
 .wictronix img {
