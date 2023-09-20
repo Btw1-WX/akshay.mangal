@@ -1145,7 +1145,7 @@ text-align: justify;
     flex-direction: column;
 }
 .blog-detailbox .bloghead {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 .blog-detailbox .blogtext {
     font-size: 1.3rem;
@@ -1158,8 +1158,7 @@ text-align: justify;
     margin: 1rem auto;
     border-radius: .4rem;
     font-size: 1rem;
-    background: linear-gradient(200deg, rgba(78,89,213,1) 0%, rgba(56,141,255,1) 50%, rgba(78,89,213,1) 100%);
-    color: white;
+    background-color: lightskyblue;
     cursor: pointer;
 }
 .blogimg {
@@ -1180,13 +1179,12 @@ text-align: justify;
     text-align: initial;
 }
 .bloghead {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: sans-serif;
     padding: 1rem 1rem;
-    text-align: center;
 }
 .blogtext {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 0 1rem;
     text-align: justify;
     height: -webkit-fill-available;
