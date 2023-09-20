@@ -16,6 +16,11 @@ window.addEventListener("scroll", () => {
   }
 });
 
+AOS.init({
+  offset: 200,
+  once: false,
+});
+
 
 
 
