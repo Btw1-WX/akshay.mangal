@@ -20,19 +20,21 @@
     <meta property="og:url" content="https://www.akshaymangal.in/" />
     <meta property="og:image" content="https://akshaymangal.in/favicon.ico" />
     <link rel="icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <div class="nav">
-        <a href="./index.html#home">
+    <div class="nav" id="navbar">
+        <a href="./index.html">
             <div class="logo-1">
                 <img alt="akshay mangal logo" class="num-1-1-two" src="./logo.png" />
-                <p class="text-44">Akshay Mangal</p>
             </div>
         </a>
         <div class="menu-icon">
@@ -41,51 +43,42 @@
             <span></span>
         </div>
         <ul class="menu">
-            <a href="./index.html#home">
-                <li class="home-two">Home</li>
-            </a>
-            <a href="./index.html#about">
-                <li class="about-two">About</li>
-            </a>
-            <a href="./index.html#clients">
-                <li class="skills">Clients</li>
-            </a>
-            <a href="./blog.html">
-                <li class="skills">Blogs</li>
-            </a>
-            <a href="./articles.html">
-                <li class="skills">Articles</li>
-            </a>
-            <a href="./index.html#gallery">
-                <li class="text-45">Gallery</li>
-            </a>
-            <a href="./index.html#contact">
-                <li class="contact-two">Contact</li>
-            </a>
+            <li class="home-two"><a href="./index.html">Home</a></li>
+            <li class="about-two"><a href="./index.html#about">About</a></li>
+            <li class="skills"><a href="./index.html#clients">Clients</a></li>
+            <li class="skills"><a href="./blog.html" class="active">Blogs & Articles</a></li>
+            <li class="text-45"><a href="./index.html#gallery">Gallery</a></li>
+            <li class="contact-two"><a href="./index.html#contact">Contact</a></li>
+            <div id="google_translate_element" style="text-align: center;"></div>
         </ul>
     </div>
 
     <section class="blogs">
+        <div class="slider">
+            <div class="slider-head"></div>
+        </div>
         <h1>"Understanding Climate Control: The Workings of HVAC and VAM System"</h1>
         <div class="blog-container">
             <div class="blog-detailbox">
-                <div class="blogimg"><a><img src="./images/article16.jpg" alt="hvac"></a></div>
+                <!-- <div class="blogimg"><a><img src="./images/article16.jpg" alt="hvac"></a></div> -->
                 <div class="blogtext">
                     <h4>Introduction:</h4>
                     <br>
-                    <p class="blogtext">Heating, Ventilation, and Air Conditioning (HVAC) and Vapor Absorption Machines
+                    <p class="blogtext" data-aos="fade-in">Heating, Ventilation, and Air Conditioning (HVAC) and Vapor
+                        Absorption Machines
                         (VAM) are two systems that have made their mark in the rapidly developing field of climate
                         control technologies. VAMs provide an alternative to HVAC systems with their own set of
                         advantages. This essay examines the inner workings of both in great detail so that you can grasp
                         how they operate.
                     </p>
+                    <div class="blogimg"><a><img src="./images/article16.jpg" alt="hvac"></a></div>
 
                     <br>
                     <h4>Air Conditioning and Heating (I)</h4>
                     <br>
                     <h4>Elements and Purposes:</h4>
                     <br>
-                    <p class="blogtext">
+                    <p class="blogtext" data-aos="fade-in">
                         The cooling process begins in the home's interior with the evaporator coil, which uses a
                         refrigerant to draw heat from the air.
                         <br>
@@ -102,7 +95,8 @@
                     <br>
                     <h4>Method of Warming:</h4>
                     <br>
-                    <p class="blogtext">The heating component of conventional HVAC systems is often a furnace or boiler.
+                    <p class="blogtext" data-aos="fade-in">The heating component of conventional HVAC systems is often a
+                        furnace or boiler.
                         They produce heat by means of combustion (such as natural gas) or electrical current.
                         <br>
                         Heat pumps, a component of some modern HVAC systems, can turn the refrigeration cycle around to
@@ -112,7 +106,8 @@
                     <br>
                     <h4>Ventilation:</h4>
                     <br>
-                    <p class="blogtext">Brings in clean air from outside and expels stale, potentially contaminated air
+                    <p class="blogtext" data-aos="fade-in">Brings in clean air from outside and expels stale,
+                        potentially contaminated air
                         from within, guaranteeing high indoor air quality.
                         <br>
                         Maintains a healthy and pleasant atmosphere by regulating humidity and filtering out
@@ -124,13 +119,15 @@
                     <br>
                     <h4>Theoretically Guiding:</h4>
                     <br>
-                    <p class="blogtext">VAMs are distinct from conventional HVAC systems since they use waste heat as
+                    <p class="blogtext" data-aos="fade-in">VAMs are distinct from conventional HVAC systems since they
+                        use waste heat as
                         their major energy source for cooling.
                     </p>
                     <br>
                     <h4>Fundamental Steps:</h4>
                     <br>
-                    <p class="blogtext">In an absorber, a gaseous refrigerant is taken in by a liquid and diluted.
+                    <p class="blogtext" data-aos="fade-in">In an absorber, a gaseous refrigerant is taken in by a liquid
+                        and diluted.
                         <br>
                         The generator: The refrigerant is extracted from the mixture and turns into a vapor when it is
                         heated.
@@ -153,7 +150,8 @@
                     <br>
                     <h4> Conservation of Energy: </h4>
                     <br>
-                    <p class="blogtext">Newer versions of conventional HVAC units are more energy efficient, but this
+                    <p class="blogtext" data-aos="fade-in">Newer versions of conventional HVAC units are more energy
+                        efficient, but this
                         trend has been ongoing for some time.
                         <br>
                         VAMs, on the other hand, can provide cooling with a possibly smaller carbon footprint because
@@ -163,7 +161,8 @@
                     <br>
                     <h4> Maintenance Expenses: </h4>
                     <br>
-                    <p class="blogtext">Electricity consumption is a major factor in why HVAC systems have higher
+                    <p class="blogtext" data-aos="fade-in">Electricity consumption is a major factor in why HVAC systems
+                        have higher
                         operating expenses
                         Using VAMs that generate heat from waste materials or the sun can reduce operating costs
                         significantly.
@@ -172,13 +171,15 @@
                     <br>
                     <h4>Taking Into Account the Environment:</h4>
                     <br>
-                    <p class="blogtext">VAMs, with their reduced dependency on electricity, especially when coupled with
+                    <p class="blogtext" data-aos="fade-in">VAMs, with their reduced dependency on electricity,
+                        especially when coupled with
                         renewable energy sources, offer a promising path toward global sustainability.
                     </p>
                     <br>
                     <h4>Conclusion:</h4>
                     <br>
-                    <p class="blogtext">The development of HVAC and VAM systems attests to humanity's capacity for
+                    <p class="blogtext" data-aos="fade-in">The development of HVAC and VAM systems attests to humanity's
+                        capacity for
                         innovation in the pursuit of comfort. VAMs, with their heat-driven mechanism, are beginning to
                         carve out a place in a market dominated for decades by HVACs, particularly in situations where
                         waste heat or renewable heat sources are available. Decision-makers, developers, and end-users
@@ -189,15 +190,82 @@
             </div>
         </div>
     </section>
-    <div class="text-30">
-        <div class="flex-wrapper-one">
-            <img alt="hvac" class="num-1-1" src="./images/26.png" />
-            <p class="text-29">Akshay Mangal</p>
+    <footer>
+        <div class="text-30">
+            <div class="flex-wrapper-one">
+                <!-- <img alt="hvac" class="num-1-1" src="./images/26.png" /> -->
+
+                <!-- <p class="text-29">Akshay Mangal</p> -->
+            </div>
+
+
         </div>
-        <p class="text-28">Powered by <a class="wictronix" href="https://wictronix.com/" target="_blank"><img
-                    src="./images/wictronix.png" alt="_blank"></a></p>
-    </div>
-    <script src="./index.js"></script>
+        <div class="info">
+
+            <div>
+                <span class="icon"><i class="fas fa-user"></i></span>
+                <span class="content">
+                    <h3>Name</h3>
+                    <span>Akshay Mangal</span>
+                </span>
+            </div>
+
+            <div>
+                <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                <span class="content">
+                    <h3>Address</h3>
+                    <span>Surat, Gujarat, India</span>
+                </span>
+            </div>
+
+            <div>
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span class="content">
+                    <h3>Email</h3>
+                    <span>
+                        <a href="mailto:me@akshaymangal.in">me@akshaymangal.in</a>
+                    </span> <br>
+                    <span>
+                        <a href="mailto:akshay@broad.net">akshay@broad.net</a>
+                    </span>
+                </span>
+            </div>
+
+            <div>
+                <span class="icon"><i class="fas fa-phone fa-flip-horizontal"></i></span>
+                <span class="content">
+                    <h3>Phone</h3>
+                    <span>
+                        <a href="tel:+919427851584">+91 9427851584</a>
+                    </span>
+                </span>
+            </div>
+            <div class="social">
+                <a href="https://twitter.com/AkshayMangal_me" target="_blank"><span><i
+                            class="fab fa-twitter"></i></span></a>
+                <a href="https://www.linkedin.com/in/akshay-mangal-642217a9/" target="_blank"><span><i
+                            class="fab fa-linkedin"></i></span></a>
+            </div>
+        </div>
+
+        <div class="ft">
+
+            <p class="text-28">Powered by <a class="wictronix" href="https://wictronix.com/" target="_blank">
+                    <img src="./images/wictronix.png" alt="_blank"></a></p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/index.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://kit.fontawesome.com/da7782af24.js" crossorigin="anonymous"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://kit.fontawesome.com/da7782af24.js" crossorigin="anonymous"></script>
+</body>
 
 </body>
 

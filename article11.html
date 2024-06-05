@@ -20,19 +20,21 @@
     <meta property="og:url" content="https://www.akshaymangal.in/" />
     <meta property="og:image" content="https://akshaymangal.in/favicon.ico" />
     <link rel="icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <div class="nav">
-        <a href="./index.html#home">
+    <div class="nav" id="navbar">
+        <a href="./index.html">
             <div class="logo-1">
                 <img alt="akshay mangal logo" class="num-1-1-two" src="./logo.png" />
-                <p class="text-44">Akshay Mangal</p>
             </div>
         </a>
         <div class="menu-icon">
@@ -41,50 +43,41 @@
             <span></span>
         </div>
         <ul class="menu">
-            <a href="./index.html#home">
-                <li class="home-two">Home</li>
-            </a>
-            <a href="./index.html#about">
-                <li class="about-two">About</li>
-            </a>
-            <a href="./index.html#clients">
-                <li class="skills">Clients</li>
-            </a>
-            <a href="./blog.html">
-                <li class="skills">Blogs</li>
-            </a>
-            <a href="./articles.html">
-                <li class="skills">Articles</li>
-            </a>
-            <a href="./index.html#gallery">
-                <li class="text-45">Gallery</li>
-            </a>
-            <a href="./index.html#contact">
-                <li class="contact-two">Contact</li>
-            </a>
+            <li class="home-two"><a href="./index.html">Home</a></li>
+            <li class="about-two"><a href="./index.html#about">About</a></li>
+            <li class="skills"><a href="./index.html#clients">Clients</a></li>
+            <li class="skills"><a href="./blog.html" class="active">Blogs & Articles</a></li>
+            <li class="text-45"><a href="./index.html#gallery">Gallery</a></li>
+            <li class="contact-two"><a href="./index.html#contact">Contact</a></li>
+            <div id="google_translate_element" style="text-align: center;"></div>
         </ul>
     </div>
 
     <section class="blogs">
+        <div class="slider">
+            <div class="slider-head"></div>
+        </div>
         <h1>"The Economic Implications: Understanding the ROI when investing in VAM technology for large-scale
             applications."</h1>
         <div class="blog-container">
             <div class="blog-detailbox">
-                <div class="blogimg"><a><img src="./images/article11.jpg" alt="hvac"></a></div>
                 <div class="blogtext">
                     <h4>Introduction: </h4>
                     <br>
-                    <p class="blogtext">Industries are looking into different HVAC options because of the worldwide
+                    <p class="blogtext" data-aos="fade-in">Industries are looking into different HVAC options because of
+                        the worldwide
                         trend toward sustainability and energy efficiency. Vapor absorption machines (VAMs) are a
                         frontrunner because of their potential to reduce energy use and have a smaller impact on the
                         environment. For widespread use, however, the most basic question still stands: how profitable
                         is VAM technology? To put it simply, let's dissect it.
                     </p>
+                    <div class="blogimg"><a><img src="./images/article11.jpg" alt="hvac"></a></div>
 
                     <br>
                     <h4>Expenses and Capital Required for Launch</h4>
                     <br>
-                    <p class="blogtext">Recognizing the financial commitment is the first step in calculating return on
+                    <p class="blogtext" data-aos="fade-in">Recognizing the financial commitment is the first step in
+                        calculating return on
                         investment. The standard procedure for mounting VAMs entails:
                         <br>
                         Equipment and installation are included in capital expenses. Due to their one-of-a-kind nature,
@@ -100,7 +93,8 @@
                     <br>
                     <h4>Reduced Costs in Operation</h4>
                     <br>
-                    <p class="blogtext">When we take into account the advantages to operations, VAMs really shine:
+                    <p class="blogtext" data-aos="fade-in">When we take into account the advantages to operations, VAMs
+                        really shine:
                         <br>
                         Energy efficiency: Running expenses can be decreased by switching to heat sources (such as waste
                         heat or solar energy) from electricity.
@@ -117,7 +111,8 @@
                     <br>
                     <h4>Consequences for the Future Budget </h4>
                     <br>
-                    <p class="blogtext">Long-term planning is essential for implementations on a grand scale:
+                    <p class="blogtext" data-aos="fade-in">Long-term planning is essential for implementations on a
+                        grand scale:
                         <br>
                         When properly cared for, VAMs have lifespans on par with or even exceeding those of conventional
                         systems. This allows the capital costs to be amortized over a much longer period of time.
@@ -145,7 +140,8 @@
                     <br>
                     <h4>Conclusion</h4>
                     <br>
-                    <p class="blogtext">However, the long-term financial benefits of VAM technology make the initial
+                    <p class="blogtext" data-aos="fade-in">However, the long-term financial benefits of VAM technology
+                        make the initial
                         expenditure worthwhile, especially for large-scale applications. When businesses have a thorough
                         awareness of the full economic picture, from initial investment to ongoing savings, everyone
                         wins.
@@ -154,16 +150,81 @@
             </div>
         </div>
     </section>
-    <div class="text-30">
-        <div class="flex-wrapper-one">
-            <img alt="hvac" class="num-1-1" src="./images/26.png" />
-            <p class="text-29">Akshay Mangal</p>
-        </div>
-        <p class="text-28">Powered by <a class="wictronix" href="https://wictronix.com/" target="_blank"><img
-                    src="./images/wictronix.png" alt="_blank"></a></p>
-    </div>
-    <script src="./index.js"></script>
+    <footer>
+        <div class="text-30">
+            <div class="flex-wrapper-one">
+                <!-- <img alt="hvac" class="num-1-1" src="./images/26.png" /> -->
 
+                <!-- <p class="text-29">Akshay Mangal</p> -->
+            </div>
+
+
+        </div>
+        <div class="info">
+
+            <div>
+                <span class="icon"><i class="fas fa-user"></i></span>
+                <span class="content">
+                    <h3>Name</h3>
+                    <span>Akshay Mangal</span>
+                </span>
+            </div>
+
+            <div>
+                <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                <span class="content">
+                    <h3>Address</h3>
+                    <span>Surat, Gujarat, India</span>
+                </span>
+            </div>
+
+            <div>
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span class="content">
+                    <h3>Email</h3>
+                    <span>
+                        <a href="mailto:me@akshaymangal.in">me@akshaymangal.in</a>
+                    </span> <br>
+                    <span>
+                        <a href="mailto:akshay@broad.net">akshay@broad.net</a>
+                    </span>
+                </span>
+            </div>
+
+            <div>
+                <span class="icon"><i class="fas fa-phone fa-flip-horizontal"></i></span>
+                <span class="content">
+                    <h3>Phone</h3>
+                    <span>
+                        <a href="tel:+919427851584">+91 9427851584</a>
+                    </span>
+                </span>
+            </div>
+            <div class="social">
+                <a href="https://twitter.com/AkshayMangal_me" target="_blank"><span><i
+                            class="fab fa-twitter"></i></span></a>
+                <a href="https://www.linkedin.com/in/akshay-mangal-642217a9/" target="_blank"><span><i
+                            class="fab fa-linkedin"></i></span></a>
+            </div>
+        </div>
+
+        <div class="ft">
+
+            <p class="text-28">Powered by <a class="wictronix" href="https://wictronix.com/" target="_blank">
+                    <img src="./images/wictronix.png" alt="_blank"></a></p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/index.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://kit.fontawesome.com/da7782af24.js" crossorigin="anonymous"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://kit.fontawesome.com/da7782af24.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
