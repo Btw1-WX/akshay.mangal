@@ -55,14 +55,13 @@
       <span></span>
     </div>
     <ul class="menu">
-      <li class="home-two"><a href="#home">Home</a></li>
-      <li class="about-two"><a href="#about">About</a></li>
-      <li class="skills"><a href="#clients">Clients</a></li>
+      <li class="home-two"><a class="active" href="#home">Home</a></li>
+      <li class="skills"><a href="./broad.html">BROAD</a></li>
       <li class="skills"><a href="./blog.html">Blogs & Articles</a></li>
-      <li class="text-45"><a href="#gallery">Gallery</a></li>
       <li class="contact-two"><a href="#contact">Contact</a></li>
     </ul>
   </div>
+
   <section class="home" id="home">
     <!-- <img src="./images/10.webp" alt="home" class="background-img" /> -->
     <div class="homeleft">
@@ -142,7 +141,7 @@
       </div>
 
       <div class="box-9" data-aos="flip-right" data-aos-duration="1000">
-        <p class="text-1">2000&#43;</p>
+        <p class="text-1">9000&#43;</p>
         <p class="text-2">Followers</p>
       </div>
     </div>
@@ -353,7 +352,7 @@
     <div class="topics-talked-about-content">
       <div class="v-19 v-19-1" data-aos="fade-right" data-aos-duration="500">
         <div class="">
-          <img src="./images/home-hvac.webp" />
+          <img src="./images/topics-talk-about-hvac.jpg" />
         </div>
         <div class="talk-about-1">
           <h2>HVAC Systems</h2>
@@ -368,7 +367,7 @@
       </div>
       <div class="v-19 v-19-2" data-aos="fade-left" data-aos-duration="500">
         <div class="">
-          <img src="./images/en.jpeg" />
+          <img src="./images/topics-talk-about-vam.jpg" />
         </div>
         <div class="talk-about-2">
           <h2>Innovations in Vapor Absorption Cooling</h2>
@@ -384,7 +383,7 @@
       </div>
       <div class="v-19 v-19-3" data-aos="fade-right" data-aos-duration="500">
         <div class="">
-          <img src="./images/envrionment.jpeg" />
+          <img src="./images/topics-talk-about-env.jpg" />
         </div>
         <div class="talk-about-3">
           <h2>Environmental Impact of HVAC Systems</h2>
@@ -417,7 +416,7 @@
 
   <section class="clients new-section" id="clients">
     <h1 class="section-heading">Clients Served</h1>
-    <div class="session-delivers-content">
+    <div class="clients-content">
       <img alt="client" data-aos="fade-up" data-aos-duration="500" src="./images/Clients/1.webp" />
       <img alt="client" data-aos="fade-up" data-aos-duration="500" src="./images/Clients/2.webp" />
       <img alt="client" data-aos="fade-up" data-aos-duration="500" src="./images/Clients/3.webp" />
@@ -446,7 +445,34 @@
     </div>
   </section>
 
-
+  <section class="me-broad new-section">
+    <div class="me-broad-content">
+      <div class="me-broad-left">
+        <h1 class="section-heading">BROAD</h1>
+        <img class="me-broad-logo" src="./images/broad.png" />
+        <a class="button-2" href="./broad.html">VIEW MORE</a>
+      </div>
+      <div class="me-broad-carousel">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="me-broad-item">
+              <img src="./images/29.png" />
+            </div>
+          </div>
+          <div class="item">
+            <div class="me-broad-item">
+              <img src="./images/24.webp" />
+            </div>
+          </div>
+          <div class="item">
+            <div class="me-broad-item">
+              <img src="./images/23.webp" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="contact new-section" id="contact">
     <div class="contact-center">
@@ -613,7 +639,7 @@
       .getElementById("contact-quote-info")
       .addEventListener("click", () => {
         if (quote_element.innerText === original) {
-          if(window.outerWidth < 428) {
+          if (window.outerWidth < 428) {
             quote_element.innerHTML = translationMobile;
           } else {
             quote_element.innerText = translation;
@@ -623,7 +649,7 @@
         }
       });
   </script>
-  <script>
+  <!-- <script>
     document.addEventListener("DOMContentLoaded", function () {
       const sections = document.querySelectorAll("section");
       const navLinks = document.querySelectorAll(".menu a");
@@ -647,7 +673,7 @@
         });
       });
     });
-  </script>
+  </script> -->
 </body>
 
 </html>

@@ -5,15 +5,6 @@ AOS.init({
 });
 
 
-
-// HOME PAGE COUNTERS
-const startYear = 2017;
-const currYear = (new Date()).getFullYear();
-const industrialExperience = currYear - startYear;
-document.getElementById("industrial-experience-number").innerText = industrialExperience;
-document.getElementById("industrial-experience-number-sales").innerText = industrialExperience;
-
-
 // FOR AKSHAY MANGAL TYPE-WRITER
 var text = "Akshay Mangal ";
 var typewriterText = document.getElementById('ani');
@@ -83,7 +74,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-
 // LEAF ANIMATION FOR BLOGS PAGE 
 const slider = document.querySelector(".slider");
 const sliderhead = document.querySelector(".slider-head");
@@ -95,6 +85,13 @@ window.addEventListener("scroll", () => {
   sliderhead.style.top = `${scrollPosition}px`;
 });
 
+
+// HOME PAGE COUNTERS
+const startYear = 2017;
+const currYear = (new Date()).getFullYear();
+const industrialExperience = currYear - startYear;
+document.getElementById("industrial-experience-number").innerText = industrialExperience;
+document.getElementById("industrial-experience-number-sales").innerText = industrialExperience;
 
 
 // ANIMATION ON FORM SUBMIT

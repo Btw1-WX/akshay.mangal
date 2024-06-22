@@ -30,6 +30,7 @@ body {
   align-items: center;
   justify-content: end;
   padding: 1rem;
+  background-color: transparent;
 }
 
 .timeline-menu .cancel {
